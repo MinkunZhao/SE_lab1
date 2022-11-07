@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T01:47:54.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="FHB8jyTz2YEdnjdzpqvc" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T01:52:32.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="pATj4xFwyJ13SBJzSAf0" version="20.5.1" type="github">
   <diagram id="PnP3ODJL_Z0Urigxx_61" name="第 1 页">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,16 +16,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-9" value="Patient" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="250" width="170" height="214" as="geometry" />
+          <mxGeometry x="100" y="250" width="170" height="260" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-10" value="+ comeDateAndTime: String&#xa;+ diseaseType: int&#xa;+ diseaseDiscription: String&#xa;+ wardIndex: int&#xa;+ diseaseReport: file&#xa;+ medicalRecord: file&#xa;+ callBellFlag: Boolean&#xa;+ urgenceAlarmFlag: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-9" vertex="1">
-          <mxGeometry y="26" width="170" height="154" as="geometry" />
+          <mxGeometry y="26" width="170" height="124" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="yancYa5-sekdh3y2tkEI-9" vertex="1">
-          <mxGeometry y="180" width="170" height="8" as="geometry" />
+          <mxGeometry y="150" width="170" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="yancYa5-sekdh3y2tkEI-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-9" vertex="1">
-          <mxGeometry y="188" width="170" height="26" as="geometry" />
+        <mxCell id="yancYa5-sekdh3y2tkEI-12" value="+ checkIn()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-9" vertex="1">
+          <mxGeometry y="158" width="170" height="102" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.499;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yancYa5-sekdh3y2tkEI-13" target="yancYa5-sekdh3y2tkEI-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
