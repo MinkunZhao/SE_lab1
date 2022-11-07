@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T02:27:04.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="FIm2DbWdEC8o9LMPBvS9" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T02:32:17.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="xl3tvO-FiurfhHsvij6U" version="20.5.1" type="github">
   <diagram id="PnP3ODJL_Z0Urigxx_61" name="第 1 页">
-    <mxGraphModel dx="903" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-9" value="Patient" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="250" width="147" height="240" as="geometry" />
+          <mxGeometry x="50" y="250" width="147" height="210" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-10" value="- comeDateAndTime: String&#xa;- diseaseType: int&#xa;- diseaseDiscription: String&#xa;- ward_id: int&#xa;- responsibledNurse_id :int&#xa;- diseaseReport: file&#xa;- medicalRecord: file&#xa;- callNurseFlag: Boolean&#xa;- urgenceAlarmFlag: Boolean&#xa;- inBedFlag: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-9" vertex="1">
           <mxGeometry y="26" width="147" height="144" as="geometry" />
@@ -24,8 +24,8 @@
         <mxCell id="yancYa5-sekdh3y2tkEI-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="yancYa5-sekdh3y2tkEI-9" vertex="1">
           <mxGeometry y="170" width="147" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="yancYa5-sekdh3y2tkEI-12" value="+ checkIn(Patient): void&#xa;+ checkOut(Patient): void&#xa;+ callNurse(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-9" vertex="1">
-          <mxGeometry y="178" width="147" height="62" as="geometry" />
+        <mxCell id="yancYa5-sekdh3y2tkEI-12" value="+ callNurse(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-9" vertex="1">
+          <mxGeometry y="178" width="147" height="32" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.499;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yancYa5-sekdh3y2tkEI-13" target="yancYa5-sekdh3y2tkEI-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -66,7 +66,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2DihsMGkWiN-Al4_-Hi0-1" value="Ward" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="53.5" y="610" width="140" height="70" as="geometry">
+          <mxGeometry x="53.5" y="585" width="140" height="70" as="geometry">
             <mxRectangle x="330" y="240" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -74,16 +74,13 @@
           <mxGeometry y="26" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="2DihsMGkWiN-Al4_-Hi0-5" value="CentralControl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="480" width="147" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="2DihsMGkWiN-Al4_-Hi0-6" value="- comeDateAndTime: String&#xa;- diseaseType: int&#xa;- diseaseDiscription: String&#xa;- ward_id: int&#xa;- responsibledNurse_id :int&#xa;- diseaseReport: file&#xa;- medicalRecord: file&#xa;- callNurseFlag: Boolean&#xa;- urgenceAlarmFlag: Boolean&#xa;- inBedFlag: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2DihsMGkWiN-Al4_-Hi0-5">
-          <mxGeometry y="26" width="147" height="144" as="geometry" />
+          <mxGeometry x="279" y="480" width="250" height="190" as="geometry" />
         </mxCell>
         <mxCell id="2DihsMGkWiN-Al4_-Hi0-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2DihsMGkWiN-Al4_-Hi0-5">
-          <mxGeometry y="170" width="147" height="8" as="geometry" />
+          <mxGeometry y="26" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="2DihsMGkWiN-Al4_-Hi0-8" value="+ checkIn(Patient): void&#xa;+ checkOut(Patient): void&#xa;+ callNurse(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2DihsMGkWiN-Al4_-Hi0-5">
-          <mxGeometry y="178" width="147" height="62" as="geometry" />
+        <mxCell id="2DihsMGkWiN-Al4_-Hi0-8" value="- monitorAllPatientsState(): void&#xa;- checkIn(int patient_id): void&#xa;- checkOut(int patient_id): void&#xa;- callNurse(int nurse_id): void&#xa;- callDoctor(): void&#xa;- checkDiseaseReport(int patient_id): file&#xa;- printDiseaseReport(int patient_id): file&#xa;- checkMedicalRecord(int patient_id): file&#xa;- printMedicalRecord(int patient_id): file&#xa;- setUrgenceAlarm(int patient_id): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2DihsMGkWiN-Al4_-Hi0-5">
+          <mxGeometry y="34" width="250" height="156" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
