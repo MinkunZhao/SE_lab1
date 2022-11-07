@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T02:05:19.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="ROXQeUqO1HpNVbI_bkGp" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T02:05:56.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="j_UfEUU-sDC87cHqqDCB" version="20.5.1" type="github">
   <diagram id="PnP3ODJL_Z0Urigxx_61" name="第 1 页">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
         <mxCell id="yancYa5-sekdh3y2tkEI-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="yancYa5-sekdh3y2tkEI-13" vertex="1">
           <mxGeometry y="52" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="yancYa5-sekdh3y2tkEI-16" value="+ checkDiseaseReport(patient_id): file" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-13" vertex="1">
+        <mxCell id="yancYa5-sekdh3y2tkEI-16" value="+ checkDiseaseReport(patient_id): file&#xa;+ printDiseaseReport(patient_id): file" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-13" vertex="1">
           <mxGeometry y="60" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.787;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yancYa5-sekdh3y2tkEI-17" target="yancYa5-sekdh3y2tkEI-2" edge="1">
