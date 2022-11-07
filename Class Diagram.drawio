@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T02:12:34.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="kwxpGylt5ABVn0RBsT9n" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T02:14:02.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="8wWRkuK-BpORcm9ecDXb" version="20.5.1" type="github">
   <diagram id="PnP3ODJL_Z0Urigxx_61" name="第 1 页">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-13" value="Nurse" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="294" y="250" width="240" height="150" as="geometry" />
+          <mxGeometry x="294" y="250" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-14" value="- responsibledDoctor_id: int&#xa;- hasPatientCallFlag: Boolean&#xa;- isFreeNow: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-13" vertex="1">
           <mxGeometry y="26" width="240" height="54" as="geometry" />
@@ -39,8 +39,8 @@
         <mxCell id="yancYa5-sekdh3y2tkEI-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="yancYa5-sekdh3y2tkEI-13" vertex="1">
           <mxGeometry y="80" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="yancYa5-sekdh3y2tkEI-16" value="+ checkDiseaseReport(int patient_id): file&#xa;+ printDiseaseReport(int patient_id): file&#xa;+ goToLookAfterPatient(int patient_id): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-13" vertex="1">
-          <mxGeometry y="88" width="240" height="62" as="geometry" />
+        <mxCell id="yancYa5-sekdh3y2tkEI-16" value="+ checkDiseaseReport(int patient_id): file&#xa;+ printDiseaseReport(int patient_id): file&#xa;+ goToLookAfterPatient(int patient_id): void&#xa;+ callDoctor(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-13" vertex="1">
+          <mxGeometry y="88" width="240" height="72" as="geometry" />
         </mxCell>
         <mxCell id="yancYa5-sekdh3y2tkEI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.787;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yancYa5-sekdh3y2tkEI-17" target="yancYa5-sekdh3y2tkEI-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -59,7 +59,7 @@
         <mxCell id="yancYa5-sekdh3y2tkEI-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="yancYa5-sekdh3y2tkEI-17" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="yancYa5-sekdh3y2tkEI-20" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-17" vertex="1">
+        <mxCell id="yancYa5-sekdh3y2tkEI-20" value="+ " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yancYa5-sekdh3y2tkEI-17" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
