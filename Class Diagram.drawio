@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T02:32:17.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="xl3tvO-FiurfhHsvij6U" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T02:33:28.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="L4t5FjRumns7In1o4Lun" version="20.5.1" type="github">
   <diagram id="PnP3ODJL_Z0Urigxx_61" name="第 1 页">
     <mxGraphModel dx="989" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,11 @@
         <mxCell id="2DihsMGkWiN-Al4_-Hi0-2" value="- id: int&#xa;- occupiedFlag: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2DihsMGkWiN-Al4_-Hi0-1">
           <mxGeometry y="26" width="140" height="44" as="geometry" />
         </mxCell>
+        <mxCell id="2DihsMGkWiN-Al4_-Hi0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.45;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2DihsMGkWiN-Al4_-Hi0-5" target="yancYa5-sekdh3y2tkEI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2DihsMGkWiN-Al4_-Hi0-5" value="CentralControl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="279" y="480" width="250" height="190" as="geometry" />
+          <mxGeometry x="360" y="525" width="250" height="190" as="geometry" />
         </mxCell>
         <mxCell id="2DihsMGkWiN-Al4_-Hi0-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2DihsMGkWiN-Al4_-Hi0-5">
           <mxGeometry y="26" width="250" height="8" as="geometry" />
