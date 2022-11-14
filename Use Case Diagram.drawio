@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T03:33:48.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="RvUD7xQyiFiqeb9Fnvgc" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-14T03:48:04.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="-EJrR4l4Vyhb5DouD4SS" version="20.5.3" type="github">
   <diagram id="nY1vaxFzvFTrNcdZ5vT9" name="Page-1">
-    <mxGraphModel dx="1404" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1789" dy="1916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,13 +8,13 @@
           <mxGeometry y="90" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0RqSvGD2xr56KYypg40D-2" value="Duty Nurse" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="155" width="30" height="60" as="geometry" />
+          <mxGeometry x="-130" y="190" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0RqSvGD2xr56KYypg40D-3" value="Doctor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="390" width="30" height="60" as="geometry" />
+          <mxGeometry x="-130" y="390" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0RqSvGD2xr56KYypg40D-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-150" width="690" height="590" as="geometry" />
+          <mxGeometry x="-80" y="-10" width="620" height="600" as="geometry" />
         </mxCell>
         <mxCell id="0RqSvGD2xr56KYypg40D-5" value="Collecting disease signals" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="55" width="90" height="50" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="390" y="250" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0RqSvGD2xr56KYypg40D-15" value="Hospital ward monitoring system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="185" y="10" width="120" height="30" as="geometry" />
+          <mxGeometry x="170" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0RqSvGD2xr56KYypg40D-17" value="View Disease&lt;br&gt;Report" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="393.75" width="80" height="52.5" as="geometry" />
