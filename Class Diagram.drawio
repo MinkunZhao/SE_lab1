@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T13:20:37.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ktu0RggsS6A0FKbx5rOH" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T13:25:03.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="c84NhIf55OVFnLLN00JW" version="21.4.0" type="github">
   <diagram id="PnP3ODJL_Z0Urigxx_61" name="第 1 页">
-    <mxGraphModel dx="1032" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="630" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
             <mxRectangle x="290" y="200" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QhrNZY7RJF_LfjgAWxW2-12" value="+ NUM_DIRECT_ADDRESS:&amp;nbsp;static const int=10&lt;br&gt;+ NUM_INDIRECT_ADDRESS:&amp;nbsp;static const int=1&lt;br&gt;&lt;div&gt;+ id: int&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ fsize: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ fmode: int&lt;/div&gt;&lt;div&gt;+ count: int&lt;/div&gt;&lt;div&gt;+ mcount: int&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ctime: time_t&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ dir_address[NUM_DIRECT_ADDRESS]: int[]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ indir_address[NUM_INDIRECT_ADDRESS]: int[]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QhrNZY7RJF_LfjgAWxW2-11">
+        <mxCell id="QhrNZY7RJF_LfjgAWxW2-12" value="+ systemsize: int&lt;br&gt;&lt;div&gt;+ blocksize: int&lt;/div&gt;&lt;div&gt;+ blocknum: int&lt;/div&gt;&lt;div&gt;+ address_length: int&lt;/div&gt;&lt;div&gt;+ max_filename_size: int&lt;/div&gt;&lt;div&gt;+ superblock_size: int&lt;/div&gt;&lt;div&gt;+ inode_size: int&lt;/div&gt;&lt;div&gt;+ inode_bitmap_size: int&lt;/div&gt;&lt;div&gt;+ block_bitmap_size: int&lt;/div&gt;&lt;div&gt;+ inode_table_size: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QhrNZY7RJF_LfjgAWxW2-11">
           <mxGeometry y="30" width="300" height="160" as="geometry" />
         </mxCell>
         <mxCell id="QhrNZY7RJF_LfjgAWxW2-13" value="&lt;div&gt;Superblock();&lt;/div&gt;&lt;div&gt;~Superblock();&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QhrNZY7RJF_LfjgAWxW2-11">
