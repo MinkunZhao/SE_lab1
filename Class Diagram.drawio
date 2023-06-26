@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T13:39:45.192Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gylPCCRc9AblC6PWrFo8" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T13:40:15.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="aHOeu_xTnPFZ_vy7zzjv" version="21.5.0" type="github">
   <diagram id="PnP3ODJL_Z0Urigxx_61" name="第 1 页">
-    <mxGraphModel dx="614" dy="261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="890" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,15 +60,15 @@
           <mxGeometry y="60" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="VXlflUnSjsPK-KDwTogi-7" value="Filesystem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="264" y="1200" width="300" height="740" as="geometry">
+          <mxGeometry x="264" y="1200" width="300" height="590" as="geometry">
             <mxRectangle x="290" y="200" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VXlflUnSjsPK-KDwTogi-8" value="&lt;div&gt;+ curpath[MAX_PATH]: char[]&lt;/div&gt;&lt;div&gt;+ *fp: std::FILE&lt;/div&gt;&lt;div&gt;+ flag: bool;&lt;/div&gt;&lt;div&gt;+ superblock: Superblock;&lt;/div&gt;&lt;div&gt;+ root_Inode: INode;&lt;/div&gt;&lt;div&gt;+ cur_Inode: INode;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VXlflUnSjsPK-KDwTogi-7">
-          <mxGeometry y="30" width="300" height="160" as="geometry" />
+          <mxGeometry y="30" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="VXlflUnSjsPK-KDwTogi-9" value="&lt;div&gt;Filesystem();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ~Filesystem();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void initialize();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void welcome();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void help();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; State createFile(std::string fileName, int fileSize);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; State deleteFile(std::string fileName);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; State createDir(std::string dirName);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; State deleteDir(std::string dirName);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; State changeDir(std::string path);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void dir();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; State cp(std::string file1, std::string file2);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void printInfo();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; State cat(std::string fileName);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void tip();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int numberOfAvailableBlock();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int findAvailableInode();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int findAvailableBlock();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void modifyInodeBitmap(int pos);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void modifyBlockBitmap(int pos);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void writeInode(int pos, INode inode);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void writeFileToDentry(File file, INode inode);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; INode readInode(int pos);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; INode findNextInode(INode inode, std::string fileName, bool &amp;amp;canFind);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void writeRandomStringToBlock(int blockid);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void writeAddressToBlock(Address address, int blockid, int offset);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void deleteFileFromDentry(INode inode, std::string fileName);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void giveState(std::string command, State st);&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VXlflUnSjsPK-KDwTogi-7">
-          <mxGeometry y="190" width="300" height="550" as="geometry" />
+          <mxGeometry y="130" width="300" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
