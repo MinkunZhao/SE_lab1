@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T01:59:06.851Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="vJdjM9Dfe1v-Hjte0xE9" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-12T01:59:14.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Ey5hc8A0Cw6hSMBg99Rg" version="22.1.0" type="github">
   <diagram id="JUfkbv9VFEBLnKnWdgaG" name="第 1 页">
     <mxGraphModel dx="1290" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,15 +60,6 @@
         </mxCell>
         <mxCell id="m7uxtyqDiRGYZK9ooFKr-4" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Training Model&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="585" width="150" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="m7uxtyqDiRGYZK9ooFKr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=150;exitDy=57;exitPerimeter=0;" parent="1" target="m7uxtyqDiRGYZK9ooFKr-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="827" as="sourcePoint" />
-            <mxPoint x="535" y="770" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="575" y="827" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
