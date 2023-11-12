@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T02:04:40.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="0lNsJoxROutWxdh9PPzq" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-12T02:05:07.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="49vojJfqN7U0E4Q8pMc_" version="22.1.0" type="github">
   <diagram id="JUfkbv9VFEBLnKnWdgaG" name="第 1 页">
     <mxGraphModel dx="1290" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
         <mxCell id="WyBCjYpSyDE15G2E7WYa-2" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="50" y="600" width="65" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="WyBCjYpSyDE15G2E7WYa-3" value="观察目标函数&lt;br&gt;在不同点的输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WyBCjYpSyDE15G2E7WYa-3" value="观察目标函数在&lt;br&gt;不同输入点的输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="602.5" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
