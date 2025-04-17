@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T13:41:30.487Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="I7DlFbfwlbeexOU1fhJd" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.12" pages="2">
   <diagram id="PnP3ODJL_Z0Urigxx_61" name="第 1 页">
     <mxGraphModel dx="1290" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,6 +69,23 @@
         </mxCell>
         <mxCell id="VXlflUnSjsPK-KDwTogi-9" value="&lt;div&gt;Filesystem();&lt;/div&gt;&lt;div&gt;~Filesystem();&lt;/div&gt;&lt;div&gt;void initialize();&lt;/div&gt;&lt;div&gt;void welcome();&lt;/div&gt;&lt;div&gt;void help();&lt;/div&gt;&lt;div&gt;State createFile(std::string fileName, int fileSize);&lt;/div&gt;&lt;div&gt;State deleteFile(std::string fileName);&lt;/div&gt;&lt;div&gt;State createDir(std::string dirName);&lt;/div&gt;&lt;div&gt;State deleteDir(std::string dirName);&lt;/div&gt;&lt;div&gt;State changeDir(std::string path);&lt;/div&gt;&lt;div&gt;void dir();&lt;/div&gt;&lt;div&gt;State cp(std::string file1, std::string file2);&lt;/div&gt;&lt;div&gt;void printInfo();&lt;/div&gt;&lt;div&gt;State cat(std::string fileName);&lt;/div&gt;&lt;div&gt;void tip();&lt;/div&gt;&lt;div&gt;int numberOfAvailableBlock();&lt;/div&gt;&lt;div&gt;int findAvailableInode();&lt;/div&gt;&lt;div&gt;int findAvailableBlock();&lt;/div&gt;&lt;div&gt;void modifyInodeBitmap(int pos);&lt;/div&gt;&lt;div&gt;void modifyBlockBitmap(int pos);&lt;/div&gt;&lt;div&gt;void writeInode(int pos, INode inode);&lt;/div&gt;&lt;div&gt;void writeFileToDentry(File file, INode inode);&lt;/div&gt;&lt;div&gt;INode readInode(int pos);&lt;/div&gt;&lt;div&gt;INode findNextInode(INode inode, std::string fileName, bool &amp;amp;canFind);&lt;/div&gt;&lt;div&gt;void writeRandomStringToBlock(int blockid);&lt;/div&gt;&lt;div&gt;void writeAddressToBlock(Address address, int blockid, int offset);&lt;/div&gt;&lt;div&gt;void deleteFileFromDentry(INode inode, std::string fileName);&lt;/div&gt;&lt;div&gt;void giveState(std::string command, State st);&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VXlflUnSjsPK-KDwTogi-7">
           <mxGeometry y="130" width="390" height="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VYJLg6nejQbRDB5aPv_-" name="Page-2">
+    <mxGraphModel dx="821" dy="467" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vK7uAXxWr1847Or5VirB-1" value="" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="264" y="550" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vK7uAXxWr1847Or5VirB-2" value="main" style="html=1;shape=mxgraph.er.anchor;whiteSpace=wrap;" vertex="1" parent="vK7uAXxWr1847Or5VirB-1">
+          <mxGeometry width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vK7uAXxWr1847Or5VirB-3" value="sub" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="vK7uAXxWr1847Or5VirB-1">
+          <mxGeometry x="50" y="5" width="45" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
